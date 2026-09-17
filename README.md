@@ -9,7 +9,7 @@
 
 ---
 
-## 🛡️ Core Capabilities
+##  Core Capabilities
 
 - **Zero-Trust IAM Guardrails**: Least-privilege IAM policy generator and permission boundary validation.
 - **Static Infrastructure Scanning**: Open Policy Agent (OPA) and Conftest rules for Terraform plans to catch security regressions pre-merge.
@@ -18,7 +18,7 @@
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── policies/
@@ -41,7 +41,7 @@
 
 ---
 
-## ⚡ Quick Validation
+##  Quick Validation
 
 ```bash
 # Run Policy-as-Code validation against Terraform plan
@@ -50,5 +50,5 @@ conftest test tfplan.json -p policies/opa/
 
 ---
 
-## 📜 License
+##  License
 MIT License - Copyright (c) 2025-2026 Rennan Simões.
